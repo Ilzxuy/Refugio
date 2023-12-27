@@ -147,7 +147,7 @@ p {
 }
 
 ::-moz-selection {
-  background: #e75e8d;
+  background: #db346f;
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ p {
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #3323c5;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -783,7 +783,7 @@ Banner Style
 
 .main-banner h6 {
   font-size: 20px;
-  color: #fff;
+  color: #dee0e9;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -796,7 +796,7 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #ec6090;
+  color: #2233cc;
 }
 
 /* 
