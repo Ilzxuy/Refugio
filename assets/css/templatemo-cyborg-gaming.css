@@ -97,7 +97,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #17459b;
   font-weight: 700;
 }
 
@@ -214,14 +214,14 @@ section {
 }
 
 .heading-section h4 {
-  color: #ec6090;
+  color: #0f38be;
   font-size: 34px;
   text-decoration: none;
   margin-bottom: 30px;
 }
 
 .heading-section h4 em {
-  color: #fff;
+  color: #0f38be;
   font-style: normal;
   text-decoration: underline;
 }
