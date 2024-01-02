@@ -460,45 +460,44 @@ Header Style
   letter-spacing: .3px;
 }
 
-.header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
-  padding: 8px 10px 8px 20px;
-  border-radius: 23px;
+/* Estilo para el mapa */
+#map {
+  height: 450px;
+  width: 100%;
+  border: 0;
+  display: none; /* El mapa estará oculto al inicio */
+}
+/* Estilo para el botón */
+#mapButton {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 12px; /* Hace que el botón sea ovalado */
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s; /* Suaviza la transición de color */
+  cursor: pointer;
 }
 
-.header-area .main-nav .nav li:last-child a img {
-  max-width: 30px;
-  border-radius: 50%;
-  margin-left: 5px;
-}
-
-.header-area .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover,
-.background-header .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover {
-  padding-left: 25px !important;
+/* Cambia el color del botón cuando el ratón está encima */
+#mapButton:hover {
+  background-color: white;
+  color: black;
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #e75e8d !important;
+  color: hsl(246, 74%, 64%) !important;
 }
 
-.header-area .main-nav .nav li:last-child:hover a,
-.header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
-  background-color: #e75e8d !important;
-}
 
-.background-header .main-nav .nav li:hover a,
-.background-header .main-nav .nav li a.active {
-  color: #fff;
-  opacity: 1;
-}
 
-.header-area .main-nav .nav li.has-sub {
-  position: relative;
-  padding-right: 15px;
-}
 
+
+ 
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
   display: block;
@@ -611,7 +610,7 @@ Header Style
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #e75e8d;
+  background-color: #6c5ee7;
 }
 
 .header-area.header-sticky {
@@ -662,7 +661,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #e75e8d!important;
+    color: #605ee7!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -724,7 +723,7 @@ Header Style
   }
   .header-area .main-nav .nav li a:hover {
     background: #fff !important;
-    color: #e75e8d!important;
+    color: #8e5ee7!important;
   }
   .header-area .main-nav .nav li:last-child a img {
     display: none;
@@ -860,7 +859,7 @@ Most Popular Style
 }
 
 .most-popular .item ul li:last-child i {
-  color: #ec6090;
+  color: #608cec;
 }
 
 .most-popular .main-button {
